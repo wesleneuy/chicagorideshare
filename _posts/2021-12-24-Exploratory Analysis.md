@@ -23,6 +23,9 @@ In the very first beginning,we loaded the Airbnb Listing data (from [InsideAirbn
 
 ![lineplot](https://github.com/wesleneuy/MUSA-550-Final-Project/blob/main/charts/lineplottrips.png)
 uihu
+
+
+
 ![line-plot]({{ site.url }}{{ site.baseurl }}/assets/images/lineplottrips.png
 
 ed the Ai
