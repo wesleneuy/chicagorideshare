@@ -22,6 +22,8 @@ In the very first beginning,we loaded the Airbnb Listing data (from [InsideAirbn
 ## When do people travel?
 
 ![lineplot](https://github.com/wesleneuy/MUSA-550-Final-Project/blob/main/charts/lineplottrips.png)
+uihu
+![line-plot]({{ site.url }}{{ site.baseurl }}/assets/images/lineplottrips.png
 
 ed the Ai
 <div id="hv-chart-1"></div>
