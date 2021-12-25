@@ -14,22 +14,20 @@ hv-loader:
 
 ## Data Cleaning
 
+We read in our [trips] dataset for October 2021, which had over 5 million rows. After removing the NAs, we are left with 2.8 million rows. We then converted the data type of some fields and added new ones for data analysis. 
 
-
-In the very first beginning,we loaded the Airbnb Listing data (from [InsideAirbnb][InsideAirbnb]) and cleaned the original dataset. To be more specific, we removed data that do not contain location information,then transformed datatype of certain fields(*e.g. price,host_response_rate*), and added new field `price_per_person` (*price_per_person=price/accommodates*) into our Airbnb dataset. Also, we loaded New York neighborhood data (from [NYC OpenData][NYC OpenData]), which served as a spatial reference for further analysis.
-
+[trips]: https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips/m6dm-c72p
 
 ## When do people travel?
 
+We examined the total number trips for each day in October. From the plot below, we see a cyclical pattern. The demand is highest during weekends, drops during the first half of the week, and slowly picks up. At its peak and minimum, the total count remained roughly the same, except during Halloween, where more people used ride share. 
 ![lineplot](https://github.com/wesleneuy/MUSA-550-Final-Project/blob/main/charts/lineplottrips.png)
 uihu
 
-
-
 ![line-plot]({{ site.url }}{{ site.baseurl }}/assets/images/lineplottrips.png)
 
-ed the Ai
+The heatmap below shows the trips counts for the month by the hour of the day. The demand is highest late at night or early in the morning. 
 <div id="hv-chart-1"></div>
 
-
+## How far do people travel?
 
