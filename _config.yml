@@ -56,9 +56,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "Nick Hand"
+  name: "Weslene Uy"
   avatar:
-  bio: "Director of Finance, Data, and Policy, Philadelphia Controller"
+  bio: "MCP 2022"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
