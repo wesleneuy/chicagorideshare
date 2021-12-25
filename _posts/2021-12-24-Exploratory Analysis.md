@@ -8,7 +8,7 @@ toc: true
 toc_sticky: true
 read_time: false
 hv-loader:
- hv-chart-1: "https://github.com/wesleneuy/MUSA-550-Final-Project/blob/main/charts/heatmap1.html"
+ hv-chart-1: "charts/heatmap1.html"
 ---
 
 
