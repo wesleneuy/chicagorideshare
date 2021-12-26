@@ -5,7 +5,7 @@ published: true
 excerpt: "When do people use rideshare services?"
 hv-loader:
  hv-chart-1: ["charts/heatmap1.html", "400"]
- toc: true
+toc: true
 toc_sticky: true
 read_time: false
 ---
