@@ -3,12 +3,12 @@ title: "Exploratory Analysis of Ridesharing in Chicago"
 date: 2021-12-24
 published: true
 tags: [dataviz, matplotlib]
-excerpt: "This is an example blog post that embeds a matplotlib image."
-toc: true
+excerpt: "Temporal analysis of rideshare trips"
+hv-loader:
+ hv-chart-1: ["charts/heatmap1.html", "500"]
+ toc: true
 toc_sticky: true
 read_time: false
-hv-loader:
- hv-chart-1: "charts/heatmap1.html"
 ---
 
 
@@ -21,7 +21,6 @@ We read in our [trips] dataset for October 2021, which had over 5 million rows. 
 ## When do people travel?
 
 We examined the total number trips for each day in October. From the plot below, we see a cyclical pattern. The demand is highest during weekends, drops during the first half of the week, and slowly picks up towards the middle and end of the week. At its peak and trough, the total count remained roughly the same, except during Halloween, where more people used ride share. 
-
 
 ![line-plot]({{ site.url }}{{ site.baseurl }}/assets/images/lineplottrips.png)
 
