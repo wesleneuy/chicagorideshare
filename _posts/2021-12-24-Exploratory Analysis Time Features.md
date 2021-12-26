@@ -21,8 +21,7 @@ We read in our [trips] dataset for October 2021, which had over 5 million rows. 
 ## When do people travel?
 
 We examined the total number trips for each day in October. From the plot below, we see a cyclical pattern. The demand is highest during weekends, drops during the first half of the week, and slowly picks up towards the middle and end of the week. At its peak and trough, the total count remained roughly the same, except during Halloween, where more people used ride share. 
-![lineplot](https://github.com/wesleneuy/MUSA-550-Final-Project/blob/main/charts/lineplottrips.png)
-uihu
+
 
 ![line-plot]({{ site.url }}{{ site.baseurl }}/assets/images/lineplottrips.png)
 
@@ -34,12 +33,12 @@ The heatmap below shows the trips counts for the month by the hour of the day. T
 ## Which day of the week has the worst traffic overall?
 Ridehailing services have been [blamed for making traffic congestion worse]. To serve as an indicator for congestion, we calculated the average trip speed (in miles per hour). From the plot below, trip speeds are slowest from 4 to 6 am, and not during rush hours (ie, 7 to 9 am) as one would expect. 
 
-https://github.com/wesleneuy/MUSA-550-Final-Project/blob/main/assets/images/speed.png
+![speed-plot]({{ site.url }}{{ site.baseurl }}/assets/images/speed.png)
 
 [blamed for making traffic congestion worse]: https://www.cmap.illinois.gov/documents/10180/844024/03.16_18_Whats+making+traffic+worse+in+Chicago+Signs+point+to+Uber+Lyft_CRAINS.pdf/143a4c91-bbae-04b3-2359-d03118159b7e
 
 ## How much do people pay for their trips?
 We also looked at the trip fare by the hour of day. The plot below tells a similar story: fares are higher from 4 to 6 am. We suspect that this is because of the surge in demand at O'Hare International Airport. We will explore this further in the next sections.
-https://github.com/wesleneuy/MUSA-550-Final-Project/blob/main/assets/images/fare1.png
+![fare1-plot]({{ site.url }}{{ site.baseurl }}/assets/images/fare1.png)
 
-https://github.com/wesleneuy/MUSA-550-Final-Project/blob/main/assets/images/fare2.png
+![fare2-plot]({{ site.url }}{{ site.baseurl }}/assets/images/fare2.png)
