@@ -32,6 +32,9 @@ Lastly, the measles incidence produced using the HvPlot package:
 
 <div id="hv-chart-1"></div>
 
+
+![milespickup-plot]({{ site.url }}{{ site.baseurl }}/assets/images/tripmilespickup.png)
+
 ## Notes
 
 - See the [raw source code](https://raw.githubusercontent.com/MUSA-550-Fall-2021/github-pages-starter/main/_posts/2021-11-29-measles-charts.md) of this post for details on how these charts were embedded.
