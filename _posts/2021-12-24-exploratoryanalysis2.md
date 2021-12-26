@@ -1,24 +1,23 @@
 ---
-title: "Example: Embedding Altair & Hvplot Charts"
-date: 2019-04-13
+title: "Exploratory Analysis Spatial"
+date: 2021-12-23
 published: true
 tags: [dataviz, altair, hvplot, holoviews]
-excerpt: "Embedding interactive charts on static pages using Jekyll."
+excerpt: "Spatial analysis of rideshare trips"
 altair-loader:
-  altair-chart-1: "charts/measlesAltair.json"
-hv-loader:
-  hv-chart-1: ["charts/measlesHvplot.html", "500"] # second argument is the height
+  altair-chart-1: "charts/pickups.json"
+  altair-chart-2: "charts/dropoff.json"
 toc: true
 toc_sticky: true
 ---
 
-This post will show examples of embedding interactive charts produced using [Altair](https://altair-viz.github.io) and [Hvplot](https://hvplot.pyviz.org/).
 
 ## Altair Example
 
 Below is a chart of the incidence of measles since 1928 for the 50 US states.
 
 <div id="altair-chart-1"></div>
+<div id="altair-chart-2"></div>
 
 This was produced using Altair and embedded in this static web page. Note that you can also display Python code on this page:
 
