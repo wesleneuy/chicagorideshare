@@ -1,9 +1,8 @@
 ---
-title: "Exploratory Analysis of Ridesharing in Chicago"
+title: "Temporal Analysis of Ridesharing"
 date: 2021-12-24
 published: true
-tags: [dataviz, matplotlib]
-excerpt: "Temporal analysis of rideshare trips"
+excerpt: "When do people use rideshare services?"
 hv-loader:
  hv-chart-1: ["charts/heatmap1.html", "400"]
  toc: true
