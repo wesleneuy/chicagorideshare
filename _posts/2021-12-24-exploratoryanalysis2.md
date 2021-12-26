@@ -2,7 +2,7 @@
 title: "Exploratory Analysis Spatial"
 date: 2021-12-23
 published: true
-tags: [dataviz, altair, hvplot, holoviews]
+tags: [dataviz, altair, spatial]
 excerpt: "Spatial analysis of rideshare trips"
 altair-loader:
   altair-chart-1: "charts/pickups.json"
@@ -12,7 +12,7 @@ toc_sticky: true
 ---
 
 
-## Altair Example
+## Where do trips begin?
 
 Below is a chart of the incidence of measles since 1928 for the 50 US states.
 
@@ -26,7 +26,7 @@ import altair as alt
 alt.renderers.enable('notebook')
 ```
 
-## HvPlot Example
+## Where do trips end?
 
 Lastly, the measles incidence produced using the HvPlot package:
 
