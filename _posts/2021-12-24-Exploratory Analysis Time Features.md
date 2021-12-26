@@ -16,6 +16,37 @@ read_time: false
 
 We read in our [trips] dataset for October 2021, which had over 5 million rows. After removing the NAs, we are left with 2.8 million rows. We then converted the data type of some fields and added new ones for data analysis. 
 
+```python
+#loading the TNC data set
+df = pd.read_csv("tnc_trips.csv")
+
+#Removing the space bet column names
+df.columns = df.columns.str.replace(' ', '')
+
+#dropping NAs
+df = df.dropna()
+
+#change some data type to ojbects; use replace to drop the decimals
+df.PickupCensusTract = df.PickupCensusTract.astype(str).replace('\.0', '', regex=True)
+df.DropoffCensusTract = df.DropoffCensusTract.astype(str).replace('\.0', '', regex=True)
+
+#Converting the Date_time type into Datetime
+#df['Date_time'] = pd.to_datetime(df['Date_time'])
+
+#convert to datetime
+df.TripStartTimestamp = df.TripStartTimestamp.astype('datetime64[ns]')
+df.TripEndTimestamp = df.TripEndTimestamp.astype('datetime64[ns]')
+
+#Extracting m/d/h/m for trip start
+df['Start_Weekday'] = df['TripStartTimestamp'].dt.day_name()
+df['Start_Day'] = df['TripStartTimestamp'].dt.day
+df['Start_Hour'] = df['TripStartTimestamp'].dt.hour
+df['Start_Minute'] = df['TripStartTimestamp'].dt.minute
+
+# adding a count field
+df["count"]=1
+```
+
 [trips]: https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips/m6dm-c72p
 
 ## When do people travel?
