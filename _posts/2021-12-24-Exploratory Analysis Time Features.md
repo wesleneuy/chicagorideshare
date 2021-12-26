@@ -19,28 +19,25 @@ We read in our [trips] dataset for October 2021, which had over 5 million rows. 
 #loading the TNC data set
 df = pd.read_csv("tnc_trips.csv")
 
-#Removing the space bet column names
+#removing the space bet column names
 df.columns = df.columns.str.replace(' ', '')
 
 #dropping NAs
 df = df.dropna()
 
-#change some data type to ojbects; use replace to drop the decimals
+#changing some data type to ojbects; use replace to drop the decimals
 df.PickupCensusTract = df.PickupCensusTract.astype(str).replace('\.0', '', regex=True)
 df.DropoffCensusTract = df.DropoffCensusTract.astype(str).replace('\.0', '', regex=True)
 
-#convert to datetime
+#converting to datetime
 df.TripStartTimestamp = df.TripStartTimestamp.astype('datetime64[ns]')
 df.TripEndTimestamp = df.TripEndTimestamp.astype('datetime64[ns]')
 
-#Extracting m/d/h/m for trip start
+#extracting m/d/h/m for trip start
 df['Start_Weekday'] = df['TripStartTimestamp'].dt.day_name()
 df['Start_Day'] = df['TripStartTimestamp'].dt.day
 df['Start_Hour'] = df['TripStartTimestamp'].dt.hour
 df['Start_Minute'] = df['TripStartTimestamp'].dt.minute
-
-# adding a count field
-df["count"]=1
 ```
 
 [trips]: https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips/m6dm-c72p
