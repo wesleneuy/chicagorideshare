@@ -16,6 +16,7 @@ The map below shows the count of pickup points by census tracts. Trip origins ar
 
 <div id="altair-chart-1"></div>
 
+![neigh-plot]({{ site.url }}{{ site.baseurl }}/assets/images/neighborhoods.png)
 
 ## Where do trips end?
 Dropoffs are also concentrated in the same census tracts, as shown in the map below.
