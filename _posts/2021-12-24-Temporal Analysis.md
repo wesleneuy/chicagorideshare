@@ -63,7 +63,9 @@ Ridehailing services have been [blamed for making traffic congestion worse]. We 
 
 ## How much do people pay for their trips?
 We also looked at the fare by the hour of the day. Surprisingly, fares are also highest from 4 to 6 am. We suspect that this is because of the surge in demand at O'Hare International Airport. We will explore this further in the next section.
+
 ![fare1-plot]({{ site.url }}{{ site.baseurl }}/assets/images/fare1.png)
 
 Rideshare users spent an average of $17 per trip in October. Longer distances does not necessarily mean higher fares as some passengers may opt for larger vehicles, among other factors. 
+
 ![fare2-plot]({{ site.url }}{{ site.baseurl }}/assets/images/fare2.png)
