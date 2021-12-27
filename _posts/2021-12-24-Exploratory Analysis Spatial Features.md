@@ -12,15 +12,15 @@ toc_sticky: true
 
 
 ## Where do trips begin?
-We joined the trips data to the [geojson of census tracts] to get the geometries. The map below shows the count of pickup points by census tracts. Trip origins are mostly clustered around the Loop, O'Hare International Airport in the northwest, and Midway International Airport in the southwest side of Chicago. 
+We joined the trips data to the [census tracts boundaries] to get the geometries. The map below shows the count of pickup points by census tracts. Trip origins are mostly clustered around the Loop, O'Hare International Airport in the northwest, and Midway International Airport in the southwest side of Chicago. 
 
-[geojson of census tracts]: https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Census-Tracts-2010/5jrd-6zik
+[census tracts boundaries]: https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Census-Tracts-2010/5jrd-6zik
 
 <div id="altair-chart-1"></div>
 
-We also merged the trips data to the [neighborhoods geojson] in Chicago. The plot shows the top 10 neighborhoods with the largest number of pickup points. 
+We also merged the trips data to the [neighborhoods boundaries] in Chicago. The plot shows the top 10 neighborhoods with the largest number of pickup points. Aside from O'Hare, all of the top neighborhoods are in Chicago's downtown. 
 
-[neighborhoods geojson]: https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Neighborhoods/bbvz-uum9
+[neighborhoods boundaries]: https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Neighborhoods/bbvz-uum9
 
 ![neigh-plot]({{ site.url }}{{ site.baseurl }}/assets/images/neighborhoods.png)
 
