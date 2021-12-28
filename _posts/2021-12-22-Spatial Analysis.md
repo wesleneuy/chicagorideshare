@@ -1,6 +1,6 @@
 ---
 title: "Spatial Analysis of Ridesharing"
-date: 2021-12-24
+date: 2021-12-22
 published: true
 excerpt: "Origins and destinations of rideshare trips"
 altair-loader:
