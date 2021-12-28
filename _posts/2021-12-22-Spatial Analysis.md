@@ -7,7 +7,7 @@ altair-loader:
   altair-chart-1: "charts/pickups.json"
   altair-chart-2: "charts/dropoff.json"
 hv-loader:
- hv-chart-1: ["charts/panel.html", "600"]  
+ hv-chart-1: ["charts/panel.html", "800"]  
 toc: true
 toc_sticky: true
 ---
