@@ -1,6 +1,7 @@
 ---
 title: "Background"
 date: 2021-12-24
+excerpt: "Overview of the project"
 categories:
   - Introduction
 tags:
