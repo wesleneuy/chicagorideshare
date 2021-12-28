@@ -42,7 +42,7 @@ df['Start_Minute'] = df['TripStartTimestamp'].dt.minute
 [trips]: https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips/m6dm-c72p
 
 ## When do people travel?
-We examined the total number trips for each day in October. From the plot below, we see a cyclical pattern. The demand is highest during weekends, drops during the first half of the week, and slowly picks up towards the middle and end of the week. At its peak and trough, the total count remained roughly the same, except during Halloween, where more people used ride share. 
+We examined the total number trips for each day in October. From the plot below, we see a cyclical pattern. The demand is highest during weekends, drops during the first half of the week, and slowly picks up towards the middle and end of the week. At its highest and lowest points, the total count remained roughly the same, except during Halloween, where more people used ride share. 
 
 ![line-plot]({{ site.url }}{{ site.baseurl }}/assets/images/lineplottrips.png)
 
