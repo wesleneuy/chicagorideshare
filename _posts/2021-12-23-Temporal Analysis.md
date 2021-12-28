@@ -4,7 +4,7 @@ date: 2021-12-23
 published: true
 excerpt: "When do people use rideshare services?"
 hv-loader:
- hv-chart-1: ["charts/heatmap1.html", "400"]
+ hv-chart-1: ["charts/heatmap1.html", "500"]
 toc: true
 toc_sticky: true
 read_time: false
@@ -66,6 +66,6 @@ We also looked at the fare by the hour of the day. Surprisingly, fares are also 
 
 ![fare1-plot]({{ site.url }}{{ site.baseurl }}/assets/images/fare1.png)
 
-Rideshare users spent an average of $17 per trip in October. Longer distances does not necessarily mean higher fares as some passengers may opt for larger vehicles, among other factors. 
+Rideshare users spent an average of $17 per trip in October. Longer distances does not necessarily mean higher fares due to surge pricing or with some passengers opting for larger vehicles, among other factors. 
 
 ![fare2-plot]({{ site.url }}{{ site.baseurl }}/assets/images/fare2.png)
