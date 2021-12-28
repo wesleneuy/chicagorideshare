@@ -1,6 +1,6 @@
 ---
 title: "Temporal Analysis of Ridesharing"
-date: 2021-12-24
+date: 2021-12-23
 published: true
 excerpt: "When do people use rideshare services?"
 hv-loader:
