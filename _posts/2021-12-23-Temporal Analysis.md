@@ -4,7 +4,8 @@ date: 2021-12-23
 published: true
 excerpt: "When do people use rideshare services?"
 hv-loader:
- hv-chart-1: ["charts/heatmap1.html", "500"]
+ hv-chart-1: ["charts/heatmap1.html", "600"]
+ hv-chart-2: ["charts/panel.html", "600"]
 toc: true
 toc_sticky: true
 read_time: false
