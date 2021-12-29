@@ -38,7 +38,7 @@ We also looked at the distance distribution based on the origin of rideshare use
 
 ## How do rideshare trips vary by income?
 
-We used CenPy to get income data and merged it with the census tracts and trips dataset. The API query only returned 664 tracts whereas the city's census tract boundaries has 801 tracts. The map below shows that more affluent households are concentrated in the downtown and northside of Chicago. 
+We used CenPy to get income data and merged it with the census tracts and trips dataset. The API query only returned 664 tracts and excludes the far north side (ie, O'Hare), whereas the city's census tract boundaries has 801 tracts. The map below shows that more affluent households are concentrated in the downtown and northside of Chicago. 
 
 ![income-plot]({{ site.url }}{{ site.baseurl }}/assets/images/income.png)
 
