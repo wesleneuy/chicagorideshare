@@ -1,12 +1,19 @@
 ---
-title: "Background"
-date: 2021-12-24
-excerpt: "Overview of the project"
-categories:
-  - Introduction
-tags:
-  - Rideshare
-  - Exploratory Analysis
+title: "Chicago Rideshare"
+date: 2021-12-23
+published: true
+excerpt: "When do people use rideshare services?"
+hv-loader:
+ hv-chart-1: ["charts/heatmap1.html", "600"]
+ hv-chart-2: ["charts/panel.html", "600"]
+ hv-chart-3: ["charts/panel.html", "800"]  
+altair-loader:
+  altair-chart-1: "charts/pickups.json"
+  altair-chart-2: "charts/dropoff.json"
+  altair-chart-3: "charts/kcluster.json"
+toc: true
+toc_sticky: true
+read_time: false
 ---
 
 Ridehailing services have significantly changed the transportation landscape since they were introduced over a decade ago. The popularity of these services has several implications, from increased congestion to competing with other modes. In April 2019, Chicago became the first US city to release [data] [data] on ridehailing services including Uber, Lyft, and Via. The TNC data supplements previously released datasets on taxi trips and Divvy bikeshare. The goal is to better understand the effects of transportation network company (TNC) trips on the transportation system, and ultimately, help inform policy and investment decisions. 
@@ -75,14 +82,10 @@ We used CenPy to get income data and merged it with the census tracts and trips 
 
 Next, we looked at the relationship between income and distance, start hours, and trip counts. Lower income households seem to take longer trips and have earlier start hours.
 
-<div id="hv-chart-1"></div>
+<div id="hv-chart-3"></div>
 
 ## K-Means Cluster
 
-We clustered census tracts based on rideshare statistics. We took the average trip distances and start hours as well as the total count of trips for each census tract. Using the elbow method, we determined that the optimal number of clusters is 4.
+We clustered census tracts based on rideshare statistics. We took the average trip distances and start hours as well as the total count of trips for each census tract. Using the elbow method, we determined that the optimal number of clusters is 4. The census tracts are colored by their cluster groups. Cluster 2 had the largest number of counts, with 1.5 million rideshare trips for the month. Cluster 3, which had less census tracts but include the downtown and O'Hare International Airport, had 1.2 million rideshare trips in October. Cluster 0, which are census tracts on the fringes of Chicago, had the longest average trip distances at 11 miles. On average, start trips range from 12 to 3 pm. 
 
-![elbow-plot]({{ site.url }}{{ site.baseurl }}/assets/images/elbow.png)
-
-The census tracts are colored by their cluster groups. Cluster 2 had the largest number of counts, with 1.5 million rideshare trips for the month. Cluster 3, which had less census tracts but include the downtown and O'Hare International Airport, had 1.2 million rideshare trips in October. Cluster 0, which are census tracts on the fringes of Chicago, had the longest average trip distances at 11 miles. On average, start trips range from 12 to 3 pm. 
-
-<div id="altair-chart-1"></div>
+<div id="altair-chart-3"></div>
