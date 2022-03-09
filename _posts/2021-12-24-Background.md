@@ -1,8 +1,7 @@
 ---
-title: "Chicago Rideshare"
+title: "An Exploratory Analysis of Rideshare in Chicago"
 date: 2021-12-23
 published: true
-excerpt: "When do people use rideshare services?"
 hv-loader:
  hv-chart-1: ["charts/heatmap1.html", "600"]
  hv-chart-2: ["charts/panel.html", "600"]
