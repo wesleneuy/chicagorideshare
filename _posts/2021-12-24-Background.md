@@ -4,8 +4,7 @@ date: 2021-12-23
 published: true
 hv-loader:
  hv-chart-1: ["charts/heatmap1.html", "600"]
- hv-chart-2: ["charts/panel.html", "600"]
- hv-chart-3: ["charts/panel.html", "800"]  
+ hv-chart-2: ["charts/panel.html", "800"] 
 altair-loader:
   altair-chart-1: "charts/pickups.json"
   altair-chart-2: "charts/dropoff.json"
@@ -81,7 +80,7 @@ We used CenPy to get income data and merged it with the census tracts and trips 
 
 Next, we looked at the relationship between income and distance, start hours, and trip counts. Lower income households seem to take longer trips and have earlier start hours.
 
-<div id="hv-chart-3"></div>
+<div id="hv-chart-2"></div>
 
 ## K-Means Cluster
 
