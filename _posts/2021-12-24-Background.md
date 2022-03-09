@@ -81,7 +81,6 @@ We used CenPy to get income data and merged it with the census tracts and trips 
 Next, we looked at the relationship between income and distance, start hours, and trip counts. Lower income households seem to take longer trips and have earlier start hours.
 
 <div id="hv-chart-2"></div>
-
 ## K-Means Cluster
 
 We clustered census tracts based on rideshare statistics. We took the average trip distances and start hours as well as the total count of trips for each census tract. Using the elbow method, we determined that the optimal number of clusters is 4. The census tracts are colored by their cluster groups. Cluster 2 had the largest number of counts, with 1.5 million rideshare trips for the month. Cluster 3, which had less census tracts but include the downtown and O'Hare International Airport, had 1.2 million rideshare trips in October. Cluster 0, which are census tracts on the fringes of Chicago, had the longest average trip distances at 11 miles. On average, start trips range from 12 to 3 pm. 
